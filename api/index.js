@@ -5,5 +5,6 @@ export default (request, response) => {
       "/transaction-count/{address}",
       "/resolve-ens/{ens}",
     ],
+    sourceRepo: "https://github.com/neallseth/eth-reader",
   });
 };
