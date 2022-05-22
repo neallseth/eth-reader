@@ -1,9 +1,9 @@
 export default (request, response) => {
   response.status(200).json({
     availableRequestTypes: [
-      "/get-balance/{address}",
-      "/transaction-count/{address}",
-      "/resolve-ens/{ens}",
+      "/api/get-balance/{address}",
+      "/api/transaction-count/{address}",
+      "/api/resolve-ens/{ens}",
     ],
     sourceRepo: "https://github.com/neallseth/eth-reader",
   });
