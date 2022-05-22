@@ -15,7 +15,7 @@ REST API to retrieve basic information from the Ethereum blockchain.  Designed f
 /api/transaction-count/<address || ens>
 ```
 ### resolveENS
-*Looks up the address of name. If the name is not owned, or does not have a Resolver configured, or the Resolver does not have an address configured, null is returned.*
+*Looks up the address of name. If the name is not owned, or does not have a Resolver configured, null is returned.*
 ```
 /api/resolve-ens/<ens>
 ```
